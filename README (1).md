@@ -1,18 +1,33 @@
 # Bayesian Inference & Robot Localization
 
-Implementation of probabilistic inference algorithms including Bayesian Networks, Hidden Markov Models, and Particle Filters, applied to a robot localization problem in a dynamic maze environment.
+# Overview
+This project implements core probabilistic inference algorithms from scratch and applies them to a robot localization problem in a stochastic maze environment.
+
+It covers three fundamental areas of probabilistic AI:
+- Bayesian Network inference (exact inference)
+- Hidden Markov Model (HMM) temporal inference
+- Particle filtering for dynamic state estimation
+- 
+---
+
+# Why it matters
+Many real-world systems operate under uncertainty and noisy observations.  
+This project demonstrates how probabilistic models can be used to make reliable predictions when the true state is not directly observable.
+
+These methods are widely used in:
+- Recommendation systems (modeling uncertain user behavior)
+- Fraud detection (handling incomplete signals)
+- Robotics and tracking systems (state estimation under noise)
 
 ---
 
-## Overview
+# Key Results
+- Exact inference provides ground-truth probabilities with zero error (for small networks)
+- Particle filter improves localization probability from **0.026 → 0.052 within early steps**
+- Stable convergence observed with systematic resampling
+- Modular design enables benchmarking across inference methods
 
-This project covers three interconnected areas of probabilistic AI:
-
-1. **Exact Inference in Bayesian Networks** — enumeration-based exact inference with multiprocessing support
-2. **HMM Temporal Inference** — Forward-Backward smoothing, Fixed-lag smoothing, Viterbi algorithm
-3. **Robot Localization** — Particle Filter and DBN-based localization in a stochastic maze environment
-
----
+#Project Overview
 
 ## Part 1: Bayesian Network Exact Inference
 
