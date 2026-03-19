@@ -22,7 +22,7 @@ These methods are widely used in:
 
 ---
 
-# Key Results
+## Key Results
 - Exact inference provides ground-truth probabilities with zero error (for small networks)
 - Particle filter improves localization probability from **0.026 → 0.052 within early steps**
 - Stable convergence observed with systematic resampling
