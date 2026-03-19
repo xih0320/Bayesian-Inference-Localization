@@ -1,18 +1,19 @@
 # Bayesian Inference & Robot Localization
 
-# Overview
+## Overview
 This project implements core probabilistic inference algorithms from scratch and applies them to a robot localization problem in a stochastic maze environment.
+
+The goal is to model decision-making under uncertainty and evaluate the trade-offs between exact and approximate inference methods.
 
 It covers three fundamental areas of probabilistic AI:
 - Bayesian Network inference (exact inference)
 - Hidden Markov Model (HMM) temporal inference
 - Particle filtering for dynamic state estimation
-- 
 ---
 
-# Why it matters
+## Why it matters
 Many real-world systems operate under uncertainty and noisy observations.  
-This project demonstrates how probabilistic models can be used to make reliable predictions when the true state is not directly observable.
+This project demonstrates how probabilistic models can be used to make reliable predictions and support decision-making when the true state is not directly observable.
 
 These methods are widely used in:
 - Recommendation systems (modeling uncertain user behavior)
@@ -27,7 +28,7 @@ These methods are widely used in:
 - Stable convergence observed with systematic resampling
 - Modular design enables benchmarking across inference methods
 
-#Project Overview
+##Project Overview
 
 ## Part 1: Bayesian Network Exact Inference
 
