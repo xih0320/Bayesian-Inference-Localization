@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-#
-# Author: Robert Geraghty 
-# Email : rrg053@utulsa.edu
+
 # 
 
 import networkx as nx
