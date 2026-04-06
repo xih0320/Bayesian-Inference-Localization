@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-
-# 
-
 import networkx as nx
 from networkx.algorithms.dag import topological_sort
 import json
